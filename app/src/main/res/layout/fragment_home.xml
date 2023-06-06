@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:lottie_fileName = "21126-heartbeat-soft.json"
+        android:layout_marginBottom="190dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="103"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:textSize="30dp"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="스케줄확인"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="90dp"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="약정보"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="90dp"
+        />
+</FrameLayout>

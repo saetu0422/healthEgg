@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="home">홈</string>
+    <string name="remote">원격</string>
+    <string name="remote_control">원격 리모콘</string>
+    <string name="add_remote_control">리모콘 추가</string>
+    <string name="explain">설명</string>
+    <string name="settings">설정</string>
+    <string name="smart_fan">Smart Egg</string>
+    <string name="alarm">알람 설정</string>
+    <string name="info">정보</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1067537485142",
+    "project_id": "healthegg-8fb1a",
+    "storage_bucket": "healthegg-8fb1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067537485142:android:3c6c26ea00df28e6319af7",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067537485142-6poo75ql3gem8m4v8gg8s3a1cop09ip3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp1Rh2yqGuhz_FAdva0RSszfuBRkcq1I0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067537485142-6poo75ql3gem8m4v8gg8s3a1cop09ip3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
