@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         signBt = findViewById(R.id.sign_in_button);
         signBt.setOnClickListener(this);
-        logoutBt = findViewById(R.id.logoutBt);
+        logoutBt = findViewById(R.id.logoutBtn);
         logoutBt.setOnClickListener(this);
 
 
@@ -88,7 +88,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 case R.id.sign_in_button:
                     signIn();
                     break;
-                case R.id.logoutBt:
+                case R.id.logoutBtn:
                     mGoogleSignInClient.signOut()
                             .addOnCompleteListener(this, task -> {
                                 Log.d(TAG, "onClick:logout success ");

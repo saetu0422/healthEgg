@@ -23,6 +23,7 @@
         android:textSize="30dp"
         />
     <Button
+        android:id="@+id/btn_schedul"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:text="스케줄확인"
@@ -32,6 +33,7 @@
         android:layout_marginRight="90dp"
         />
     <Button
+        android:id="@+id/btn_info"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:text="약정보"
