@@ -27,17 +27,6 @@ public class HomeFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_home, container, false);
     }
 
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.btn_schedul:
-                btnSchedul();
-                break;
-            case R.id.btn_info:
-                btnInfo();
-                break;
-
-        }
-    }
     private void btnSchedul() {
         Intent intent = new Intent(getActivity(), AlarmFragment.class);
         startActivity(intent);

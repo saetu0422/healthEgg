@@ -48,7 +48,7 @@ public class InfoFragment extends Fragment {
     public static final MediaType JSON = MediaType.get("application/json; charset=utf-8");
     OkHttpClient client;
 
-    private static final String MY_SECRET_KEY = "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";
+    private static final String MY_SECRET_KEY = "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";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -114,8 +114,12 @@ public class InfoFragment extends Fragment {
         JSONObject userMsg = new JSONObject();
         try {
             // AI attributes
+            baseAi.put("role", "system");
+            baseAi.put("content", "약에 대한 데이터를 알려주는 시스템이야. 약에 대한 정보가 아닌 다른 데이터는 모른다고 답해야해.");
             baseAi.put("role", "user");
-            baseAi.put("content", "You are a helpful and kind AI Assistant.");
+            baseAi.put("content", "감기에 맞는 약을 찾아줘");
+            baseAi.put("role", "assistant");
+            baseAi.put("content", "감기에 맞는 약은 타이레놀입니다.");
 
             // User message
             userMsg.put("role", "user");

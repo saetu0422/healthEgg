@@ -8,22 +8,22 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.HealthEgg.HomeFragment"
-        android:label="Home"
+        android:label="홈"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/nav_alarm"
         android:name="com.example.HealthEgg.AlarmFragment"
-        android:label="Remote"
+        android:label="스케쥴"
         tools:layout="@layout/fragment_alarm" />
     <fragment
         android:id="@+id/nav_info"
         android:name="com.example.HealthEgg.InfoFragment"
-        android:label="Addremote"
+        android:label="정보"
         tools:layout="@layout/fragment_info" />
     <fragment
         android:id="@+id/nav_settings"
         android:name="com.example.HealthEgg.SettingsFragment"
-        android:label="Settings"
+        android:label="설정"
         tools:layout="@layout/fragment_settings" />
 
 </navigation>
