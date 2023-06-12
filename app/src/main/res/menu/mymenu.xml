@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/deviceInfo"
+        android:title="기기정보" />
+
+    <item
+        android:id="@+id/alarmList"
+        android:title="예약정보" />
+
+</menu>

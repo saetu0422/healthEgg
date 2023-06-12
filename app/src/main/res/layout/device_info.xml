@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!-- 기기 사진을 띄울 ImageView -->
+    <ImageView
+        android:id="@+id/device_info_image"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:src="@drawable/owl_egg"/>
+
+    <!-- 기기 정보를 띄울 TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:text="기기 정보"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+
+    <!-- 기기 이름을 보여줄 TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="기기 이름 : NNK G1" />
+
+    <!-- 시리얼 번호를 보여줄 TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="시리얼 번호 : ASDF1234 " />
+
+    <!-- 등록일을 보여줄 TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="등록일 : 2023/06/11 " />
+
+</LinearLayout>
